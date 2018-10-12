@@ -18,6 +18,7 @@ type Song struct {
 	Length int64  `json:"length"`
 }
 
+<<<<<<< HEAD
 type TotalGenre struct {
 	Genre string `json:"genre"`
 	Total int64  `json:"total"`
@@ -25,6 +26,9 @@ type TotalGenre struct {
 
 type Songs []Song
 type TotalsGenre []TotalGenre
+=======
+type Songs []Song
+>>>>>>> development
 
 var mainDB *sql.DB
 
