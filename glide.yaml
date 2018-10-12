@@ -1,0 +1,8 @@
+package: github.com/juanseg2015/ddtest
+homepage: https://github.com/juanseg2015/ddtest
+owners:
+- name: Juan Segura Brenes
+  email: juan.segura1985@gmail.com
+import:
+- package: github.com/mattn/go-sqlite3
+- package: github.com/bmizerany/pat
